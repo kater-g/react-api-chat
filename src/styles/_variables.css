@@ -1,0 +1,86 @@
+:root {
+	--font-family-ui:
+		-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+		Cantarell, sans-serif;
+
+	--color-app-background: #0d1015;
+	--color-sidebar-background: #12151b;
+	--color-surface: #20252e;
+	--color-surface-raised: #171b23;
+	--color-surface-empty: #0f1218;
+	--color-surface-hover: #191d25;
+	--color-surface-active: #202633;
+	--color-surface-incoming: #212630;
+	--color-surface-scrollbar: #242a35;
+	--color-border: #1c212a;
+	--color-border-subtle: #1a1e27;
+	--color-border-focus: #2b3340;
+
+	--color-text-primary: #ffffff;
+	--color-text-strong: #f0f3f6;
+	--color-text-secondary: #7b8696;
+	--color-text-muted: #6d7786;
+	--color-text-dim: #636d7d;
+	--color-text-disabled: #5d6778;
+	--color-text-placeholder: #6d7786;
+	--color-text-subtle: #5c6675;
+	--color-text-soft: #8fa0b5;
+	--color-text-clear: #838e9e;
+	--color-text-hover: #c9d2de;
+
+	--color-accent: #007aff;
+	--color-accent-hover: #006ee6;
+	--color-accent-light: #66b3ff;
+	--color-accent-bright: #38a3ff;
+	--color-accent-cyan: #00c6ff;
+	--color-accent-read: #8de7ff;
+	--color-accent-soft: rgba(0, 122, 255, 0.12);
+	--color-accent-soft-hover: rgba(0, 122, 255, 0.2);
+
+	--color-danger: #d64545;
+	--color-danger-soft: #ffd0c9;
+
+	--color-login-background: #eef2f6;
+	--color-login-surface: #ffffff;
+	--color-login-border: #d9e2ec;
+	--color-login-heading: #102a43;
+	--color-login-label: #334e68;
+	--color-login-secondary: #627d98;
+	--color-login-input-border: #bcccdc;
+	--color-login-placeholder: #9fb3c8;
+	--color-login-accent: #0088cc;
+	--color-login-accent-hover: #0077b5;
+	--color-login-disabled: #bcccdc;
+
+	--space-1: 4px;
+	--space-2: 8px;
+	--space-3: 12px;
+	--space-4: 16px;
+	--space-5: 20px;
+	--space-6: 24px;
+
+	--radius-small: 6px;
+	--radius-control: 8px;
+	--radius-search: 10px;
+	--radius-panel: 12px;
+	--radius-bubble: 14px;
+	--radius-input: 18px;
+	--radius-empty-state: 20px;
+	--radius-circle: 50%;
+
+	--shadow-toast: 0 8px 24px rgba(0, 0, 0, 0.35);
+	--shadow-form: 0 10px 25px rgba(0, 0, 0, 0.05);
+	--shadow-message: 0 1px 3px rgba(0, 0, 0, 0.2);
+	--focus-outline: 2px solid var(--color-accent-light);
+	--focus-shadow-login: 0 0 0 3px rgba(0, 136, 204, 0.15);
+	--focus-shadow-error: 0 0 0 3px rgba(214, 69, 69, 0.15);
+
+	--transition-fast: 100ms ease;
+	--transition-short: 120ms ease;
+	--transition-medium: 140ms ease;
+	--transition-normal: 150ms ease;
+
+	--layout-chat-sidebar-width: 380px;
+	--layout-chat-sidebar-min-width: 320px;
+	--z-index-toast: 9999;
+}
