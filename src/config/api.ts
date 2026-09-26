@@ -2,7 +2,7 @@
  * Глобальная конфигурация приложения и сетевых параметров GREEN-API.
  */
 export const apiConfig = {
-  apiUrl: import.meta.env.VITE_GREEN_API_URL,
+  apiUrl: import.meta.env.VITE_GREEN_API_URL || "https://api.green-api.com",
 
   polling: {
     interval: Number(import.meta.env.VITE_POLLING_INTERVAL) || 3000,
